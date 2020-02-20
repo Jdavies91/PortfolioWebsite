@@ -1,6 +1,7 @@
 // import '../src/imgs/Carousel_Pic/'
 import GamePlay from './imgs/Carousel_Pic/GamePlay.JPG'
 import BestB4 from './imgs/BestB4.JPG'
+import WebsiteLogo from "./imgs/WebsiteLogo.JPG"
 const Webdata = [{
         mainHeader: "Memory Game",
         img: {src:GamePlay, alt:"Game Play"},
@@ -9,10 +10,10 @@ const Webdata = [{
         technology:["Npm","Node.js","Vanila Javascript", "Mongoose Database", "MVC Design Pattern","Html5","css"]
         }    ,{
             mainHeader: "Portfolio Website",
-            img: {src:"../../imgs/Carousel_Pic/GamePlay.JPG", alt:"Profilo Home Page"},
-            Des: "I created this website to show all of the work that I have done.  There is an about me, Resume, Contact, and Project page.  One of the main reasons beside having a profile was to test out my ReactJS skills.   I created this react app from scrap to get a little familiar with some of the npm packages needed and how to configure the Webpack and Babelrc config files. Have self-taught my self ReactJS and found it a very fun organized and easy to use way of creating a front end for your web applications.  I also wanted to try out some web API for sending out emails to my self when someone wants to contact me.  With the contact me page, I also wanted to store that information into a database so I could practice my backend skills as well on a simpler database.",
-            gitsrc: "https://github.com/Jdavies91/WebsiteProfilo",
-            technology:["Npm","ReactJS","ES6", "mySql Database","Webpack", "Babel", "Post And Get Request", "Bootstrap", "Hosted Through EC2 Instance"]
+            img: {src:WebsiteLogo, alt:"Website", alt:"Profilo Home Page"},
+            Des: "I created this website to show all of the work that I have done.  There is an about me, Resume, Contact, and Project page.  One of the main reasons beside having a profile was to test out my ReactJS skills.   I created this react app from scrap to get a little familiar with some of the npm packages needs. Have self-taught my self ReactJS and found it a very fun organized and easy to use way of creating a front end for your web applications.  I also wanted to try out some web API for sending out emails to my self when someone wants to contact me.  With the contact me page, I also wanted to store that information into a database so I could practice my backend skills as well on a simpler database.",
+            gitsrc: "https://github.com/Jdavies91/PortfolioWebsite",
+            technology:["Npm","ReactJS","ES6", "mySql Database","NodeMailer", "Post And Get Request", "Bootstrap", "Hosted Through EC2 Instance"]
         },{
             mainHeader: "BestB4",
             img: {src:BestB4, alt:"Food app"},

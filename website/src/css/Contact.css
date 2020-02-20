@@ -21,4 +21,21 @@
 }
 .contactButton{
     text-align: center;
+    
+    padding-top: 0%;
+    margin: auto,0,auto,0;
+}
+.contactError{
+    color: red;
+    margin:0%;
+}
+.contactSuccess{
+    color: green;
+    padding:0%;
+}
+.message{
+    text-align: center;
+    font-size: 12pt;
+    height:20px;
+    margin: auto,0,auto,0;
 }
