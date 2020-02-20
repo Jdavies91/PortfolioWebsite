@@ -1,0 +1,26 @@
+.TabListcss{
+    background-color:lightgrey;
+    padding:0%;
+}
+.tabsinflex {
+    display: inline-flex !important;
+}
+
+.nav-tabs {
+    display: inline-flex !important;
+
+}
+.react-tabs__tab:hover{
+    color: white !important;
+    background-image: initial;
+    /* border-radius: 12px !important; */
+}
+.react-tabs__tab--selected:hover{
+    color:gray  !important;
+}
+.text-center.container-fluid{
+    padding: 0px !important;
+}
+.react-tabs__tab--selected{
+    color:gray !important;
+}

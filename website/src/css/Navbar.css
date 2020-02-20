@@ -1,0 +1,73 @@
+/* .logo{
+    width:140px;
+    height:56px;
+    padding-left:0%;
+    float:left;
+    margin: 0%;
+    background-color:#343A40
+} */
+.name{
+     max-width: 5%;
+    font-size: 40pt;
+    padding-right:2%;
+ 
+    float:left;
+    overflow:visible;
+    color:#8fc1e3;
+} 
+.navbar.navbar-expand-lg.navbar-light.bg-dark{
+    background:#687864 !important;
+}
+.fontcolor{
+
+  
+    color: white !important;
+
+  }
+div.dropdown-menu.show{
+    background-color:#687864 !important;
+  }
+.items{
+    right: 0%;
+    /* left: 5%; */
+    padding-right: 0%;
+ 
+}
+a.dropdown-toggle.nav-link{
+    color: white !important;
+    padding: 5px 0px;
+    font-size: 20px;
+    margin: 0px 16px 0px 0px; 
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+    color:gray !important;
+  }
+  a.subnav_link:hover {
+    cursor: pointer;
+    background-color: gray !important; }
+    a.navbar-brand.float-left.fontcolor:hover{
+    color:lightgray !important;
+}
+a.dropdown-toggle.nav-link:hover{
+    color: #Bab2b5 !important;
+}
+a.dropdown-item{
+    color: white !important;
+    background-color: #687864;
+  
+}
+a.dropdown-item:hover{
+    color: #Bab2b5 !important;
+    /* background-color: #2F3235; */
+    background-color:#687864
+}
+div.dropdown-menu.show{
+    background:#687864 !important ;
+}
+
+.Navbarlogo{
+    color: #Bab2b5 !important;
+    font-family: "Brush Script MT";
+    font-size: 24pt;
+    
+}

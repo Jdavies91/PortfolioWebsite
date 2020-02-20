@@ -1,0 +1,58 @@
+.linkcdinimg{
+   
+    height:25%;
+}
+
+.footercent{
+    margin: 0px auto 0px auto;
+    padding: 0px 0px 0px 0px;
+
+    width:20px
+}
+.footerleft{
+    margin: 0px auto 0px auto;
+    padding: 0px 0px 0px 0px;
+    text-align: left;
+    width:20px
+}
+.footerright{
+    margin: 0px auto 0px auto;
+    padding: 0px 0px 0px 0px;
+    text-align: right;
+    width:20px
+}
+.logo{
+    width:5px;
+    height:5px;
+}
+.picturehome{
+    margin: 0px auto 0px auto;
+    padding: 0px 0px 0px 0px;
+    text-align:left;
+ 
+    
+}
+.texthome{
+ 
+    padding-top:5%;
+ 
+    
+}
+.paddinglink{
+    padding-top:5%;
+}
+
+a>img:hover{
+    background: #Bab2b5 ;
+    /* border: 1pt;
+    border-color: #Ac3b61;
+    border-style: solid; */
+}
+.homeHeader{
+    padding: 2%;
+}
+.hrHomeHead{
+    border-top: 5px solid #8c8b8b; 
+    margin:0%;
+    padding-bottom: 2%;
+}

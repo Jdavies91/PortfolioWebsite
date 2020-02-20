@@ -1,0 +1,24 @@
+.contactHeader{
+    padding: 2%;
+}
+.hrContactHead{
+    border-top: 5px solid #8c8b8b; 
+    margin:0%;
+   
+}
+
+.contactNameboxes{ 
+    max-width: 75%;
+}
+.contactEmailboxes{ 
+    max-width: 37%;
+}
+.contactTextarea{ 
+    max-width: 87%;
+}
+.contactContent{
+    text-align: center;
+}
+.contactButton{
+    text-align: center;
+}

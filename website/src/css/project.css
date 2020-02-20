@@ -1,0 +1,30 @@
+.projectdescription{
+    padding-left: 45px;
+}
+.projectTechSpec{
+    text-align: left;
+    padding-left: 5%;
+}
+
+.paddingBottomPic{
+    padding-bottom: 1%;
+}
+
+.projectgitPic{
+    padding-left: 0%;
+}
+
+.pic{
+    border:3px solid black;
+}
+
+.projectHeaderTitle{
+    padding-top: 2%;
+}
+.hrProjectHead{
+    border-top: 5px solid #8c8b8b; 
+    margin:0%;
+    padding-bottom: 2%;
+    width:75%;
+  
+}

@@ -1,0 +1,19 @@
+body{
+  
+    background-color:  #F7F9fb;
+    padding-bottom: 4%;
+    font-family: "Lucida Bright"
+}
+p{
+    color:grey;
+    font-family: "Candara"
+}
+ul{
+    color:grey
+}
+ h2, h3, h4, h5, h6{
+    color:grey;
+}
+h1{
+    color:rgb(85, 83, 83)
+}

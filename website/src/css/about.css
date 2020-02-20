@@ -1,0 +1,30 @@
+.aboutimgsize{
+    height:5%;
+    width:5%;
+}
+.aboutSection{
+    padding-right:0;
+    padding-bottom: 1%;
+}
+.aboutHeader{
+    padding-top:2%;
+    padding-right:15px;
+}
+
+.hrAboutHead{
+    border-top: 5px solid #8c8b8b; 
+    margin:0%;
+    padding-bottom: 2%;
+}
+
+.paddingProLife{
+    padding-left: 15px;
+}
+.AboutPicturesRight{
+    align-content:  right;
+    margin:0%;
+}
+.AboutTitlepadding{
+    padding-bottom:0;
+    padding-left:0;
+}
