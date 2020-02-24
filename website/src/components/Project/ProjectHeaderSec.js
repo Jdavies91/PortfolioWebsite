@@ -3,7 +3,7 @@ import {Col,Row} from 'react-bootstrap'
 function PorjectHeaderSec(props){
     return(
        
-       <Row className="text-center paddingBottomPic">
+       <Row className="text-center paddingBottomTitle">
             <Col med={12}>
         
               

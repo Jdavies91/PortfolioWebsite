@@ -14,11 +14,11 @@ function ContactLayout(props){
                          <Form.Row>
                          <Form.Group as= {Col} >
                              <Form.Label>First name</Form.Label>
-                             <Form.Control pattern='[A-Za-z]\-'   title="Use letters or hyphens only " type="text" name="Fname" className="contactNameboxes" onChange={props.handleChange}></Form.Control>
+                             <Form.Control  type="text" name="Fname" className="contactNameboxes" onChange={props.handleChange}></Form.Control>
                          </Form.Group>
                          <Form.Group as= {Col}>
                              <Form.Label>Last name</Form.Label>
-                             <Form.Control type="text" name="Lname" pattern='[A-Za-z]\-'  title="Use letters or hyphens only " className="contactNameboxes" onChange={props.handleChange} ></Form.Control>
+                             <Form.Control type="text" name="Lname" className="contactNameboxes" onChange={props.handleChange} ></Form.Control>
                          </Form.Group>
                          </Form.Row>
                          <Form.Group>
@@ -26,7 +26,7 @@ function ContactLayout(props){
                              <Form.Control type="email" name="Email" className="contactEmailboxes" onChange={props.handleChange}></Form.Control>
                          </Form.Group>
                          <Form.Group  className="contactTextarea" >
-                             <Form.Label>Body</Form.Label>
+                             <Form.Label>Content</Form.Label>
                              <Form.Control as="textarea" name="Body" rows="6" onChange={props.handleChange}></Form.Control>
                          </Form.Group>
                       

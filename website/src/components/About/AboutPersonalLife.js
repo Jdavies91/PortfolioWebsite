@@ -18,8 +18,12 @@ function AboutPersonalLife(){
             <Col lg={{span: 6, order:11}} className="AboutTitlepadding paddingProLife "  >
                 <AboutPersonal/>
             </Col>                                                                                                                                                                                                                                                                                                                
-            <Col lg={{span: 6,  order:1}} className=" text-lg-right text-xs-center paddingProLife   "   >
-            <AboutImage src={AboutPersonalimg} alt ="About Personal Image" picsize =" w-75 h-100 pic "/>
+            <Col lg={{span: 6,  order:1}} className=" text-lg-right text-xs-center text-sm-center  AboutPicturesRight   "   >
+           
+
+              
+            <AboutImage src={AboutPersonalimg} alt ="About Personal Image" picsize =" w-75 h-100 pic float-center" />
+            
             </Col>
         </Row>
         </div>

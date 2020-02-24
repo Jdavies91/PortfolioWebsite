@@ -26,7 +26,7 @@
     height:5px;
 }
 .picturehome{
-    margin: 0px auto 0px auto;
+    
     padding: 0px 0px 0px 0px;
     text-align:left;
  
@@ -34,8 +34,8 @@
 }
 .texthome{
  
-    padding-top:5%;
- 
+    padding-top:1%;
+    max-width: 30%;
     
 }
 .paddinglink{
@@ -55,4 +55,78 @@ a>img:hover{
     border-top: 5px solid #8c8b8b; 
     margin:0%;
     padding-bottom: 2%;
+}
+@media only screen and (min-width: 1200px){
+    .texthome{
+ 
+        padding-top:1%;
+        max-width: 30%;
+        min-width:none;
+    }
+    .homePic{
+        float: right;
+    }
+}
+@media only screen and (min-width: 960px){
+    .texthome{
+ 
+        padding-top:1%;
+        max-width: 30%;
+
+        
+        
+    }
+    .homePic{
+        text-align:right;
+        float: right;
+    }
+    .AboutPicturesRight{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .texthome{
+ 
+        padding-top:3%;
+        max-width: 30%;
+        min-width:none;
+        
+    }
+    .homePic{
+        float: right;
+    }
+    .AboutPicturesRight{
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 540px){
+    .texthome{
+ 
+        padding-top:3%;
+        max-width: none;
+        min-width:none;
+        
+    }
+    .homePic{
+        float: right;
+    }
+    .AboutPicturesRight{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 540px){
+    .texthome{
+ 
+        padding-top:4%;
+        max-width: none;
+        min-width:none;
+        
+    }
+    .homePic{
+        float:none;
+    }
+    .AboutPicturesRight{
+        text-align: center;
+    }
 }

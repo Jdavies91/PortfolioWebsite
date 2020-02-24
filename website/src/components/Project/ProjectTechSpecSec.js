@@ -7,7 +7,7 @@ function ProjectTechSpecSec(props){
       
         <Col md={3} lg={4} >
         <ul className="projectTechSpec " >
-        <h5>Technology Specification</h5>
+        <h5>Technology</h5>
         <div className="projectTechSpec">
         {props.techspecs}
         </div>

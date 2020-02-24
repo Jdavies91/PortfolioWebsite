@@ -1,25 +1,25 @@
-// import '../src/imgs/Carousel_Pic/'
-import GamePlay from './imgs/Carousel_Pic/GamePlay.JPG'
-import BestB4 from './imgs/BestB4.JPG'
+
+import GamePlay from './imgs/game_board.JPG'
+import best_b4_white_logo from './imgs/best_b4_white_logo.png'
 import WebsiteLogo from "./imgs/WebsiteLogo.JPG"
 const Webdata = [{
         mainHeader: "Memory Game",
         img: {src:GamePlay, alt:"Game Play"},
-        Des: "This game had multiple factors to it as it measures difficulty for every sequence you get right. It would either expand the board or add a title to remember. All the square that you would have to remember is in Black. The board would start with 5 x 5 squares and can grow up to 7 x 7 squares. For every square, you guess wrong you will lose a point. If your points go down to zero, it will bring you to the input user name and score page, and you would get 0 points. If you feel like you can't remember the squares and want to keep your current position, you can press terminate. This would bring you to the User and Score input page with your current score.",
+        Des: "In the Memory Game, the user needs to memorize a group of tiles on a grid quickly. That means remembering their location, and maybe even the shapes they create.  The game \"challenges a part of your short-term memory called spatial recall your ability to track location and position within an environment.\"  The game is of type Dynamic game difficulty balancing (adapts with the user skill and gets harder or easier with respect to the user ability). If wrong tiles are pressed the next matrix gets generated with a lower number of tiles, or smaller size (a 5X5 matrix with 6 tiles, will turn to a 5X5 matrix with 5 tiles or 5X4 matrix with 6 tiles)",
         gitsrc: "https://github.com/Jdavies91/memory_game",
-        technology:["Npm","Node.js","Vanila Javascript", "Mongoose Database", "MVC Design Pattern","Html5","css"]
+        technology:["npm","Node.js","Javascript", "Mongoose", "MVC Design Pattern","HTML5","CSS"]
         }    ,{
             mainHeader: "Portfolio Website",
             img: {src:WebsiteLogo, alt:"Website", alt:"Profilo Home Page"},
-            Des: "I created this website to show all of the work that I have done.  There is an about me, Resume, Contact, and Project page.  One of the main reasons beside having a profile was to test out my ReactJS skills.   I created this react app from scrap to get a little familiar with some of the npm packages needs. Have self-taught my self ReactJS and found it a very fun organized and easy to use way of creating a front end for your web applications.  I also wanted to try out some web API for sending out emails to my self when someone wants to contact me.  With the contact me page, I also wanted to store that information into a database so I could practice my backend skills as well on a simpler database.",
+            Des: "I created this website to highlight the work that I have done.  There are five linked sections: Home, About Me, Resume, Projects, Contact Me.  One of the great side benefits of creating this Portfolio was the opportunity to enhance my React skills.  I have taught my self React, and I found it fun, organized, and easy to use way of creating a front end for web applications. In the Contact Me section, I also used the Nodemailer module to handle your question or comments.  When the user presses send, it sends the message directly to my email so that I can respond as needed.  I am working to make this website mobile-friendly.",
             gitsrc: "https://github.com/Jdavies91/PortfolioWebsite",
-            technology:["Npm","ReactJS","ES6", "mySql Database","NodeMailer", "Post And Get Request", "Bootstrap", "Hosted Through EC2 Instance"]
+            technology:["npm","React","ES6", "MySQL","Nodemailer", "HTTP request", "React-Bootstrap", "Hosted through Heroku"]
         },{
             mainHeader: "BestB4",
-            img: {src:BestB4, alt:"Food app"},
-            Des: "The BestB4 app was a BCIT Project that focused on making a web application to help save the environment.  What we focused on was food waste.  We created an application to create recipes based on what you had in the fridge before the expiration date.  If you don’t like the recipe, you can click next and go to the next recipe.  Once you found a recipe, you could take a picture of what you made and post it on twitter.",
+            img: {src:best_b4_white_logo, alt:"Food app"},
+            Des: "The BestB4 app was a BCIT Project that focused on making a web application to help save the environment.  We focused on food waste.  We created an application to create recipes based on what you had in the fridge before the expiration date.  If you do not like the recipe, you can click next and go to the next recipe.  Once you found a recipe, you could take a picture of what you made and post it on twitter.",
             gitsrc: "https://github.com/Jdavies91/BestB4",
-            technology:["Html","PHP","Javascript","CSS","MySql","Twitter Api","Food Recipe Api"]
+            technology:["HTML","PHP","Javascript","CSS","MySql","Twitter Api","Food Recipe Api"]
             }    
     ]
 

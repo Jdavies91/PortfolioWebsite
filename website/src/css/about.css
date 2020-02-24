@@ -28,3 +28,14 @@
     padding-bottom:0;
     padding-left:0;
 }
+
+
+    @media only screen and (max-width: 760px){
+        .AboutPicturesRight{
+            text-align: center;
+           
+        }
+        .homePic{
+            float:right;
+        }
+    }
